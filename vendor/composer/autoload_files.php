@@ -9,5 +9,5 @@ return array(
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '9c9a81795c809f4710dd20bec1e349df' => $vendorDir . '/joshcam/mysqli-database-class/MysqliDb.php',
     '94df122b6b32ca0be78d482c26e5ce00' => $vendorDir . '/joshcam/mysqli-database-class/dbObject.php',
-    '5ec26a44593cffc3089bdca7ce7a56c3' => $baseDir . '/core/helpers.php',
+    '59b9c8e4f14b2edf190b1bca5bd5db16' => $baseDir . '/core/helpers.php',
 );

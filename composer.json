@@ -1,10 +1,10 @@
 {
-    "name": "TraianAlex/minimvc",
+    "name": "minimvc/minimvc",
     "description": "Cuctom mvc framework for very small web apps",
     "keywords": ["mvc", "framework", "psr-2"],
     "homepage": "http://github.com/TraianAlex/minimvc",
     "type": "library",
-    "license": "GNU",
+    "license": "MIT",
     "authors": [
         {
             "name": "Traian Alexandru",

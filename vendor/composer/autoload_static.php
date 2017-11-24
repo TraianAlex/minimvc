@@ -10,7 +10,7 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '9c9a81795c809f4710dd20bec1e349df' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/MysqliDb.php',
         '94df122b6b32ca0be78d482c26e5ce00' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/dbObject.php',
-        '5ec26a44593cffc3089bdca7ce7a56c3' => __DIR__ . '/../..' . '/core/helpers.php',
+        '59b9c8e4f14b2edf190b1bca5bd5db16' => __DIR__ . '/../..' . '/core/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -39,10 +39,10 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         'App\\Controllers\\About' => __DIR__ . '/../..' . '/controllers/About.php',
         'App\\Controllers\\Contact' => __DIR__ . '/../..' . '/controllers/Contact.php',
         'App\\Controllers\\Home' => __DIR__ . '/../..' . '/controllers/Home.php',
-        'App\\Core\\DB_Manager' => __DIR__ . '/../..' . '/help/db-manager/DB_Manager.php',
+        'App\\Core\\DB_Manager' => __DIR__ . '/../..' . '/temp/db-manager/DB_Manager.php',
         'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
         'App\\Core\\Route' => __DIR__ . '/../..' . '/core/Route.php',
-        'App\\Core\\Router' => __DIR__ . '/../..' . '/help/Router.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/temp/Router.php',
         'App\\Model\\Category' => __DIR__ . '/../..' . '/model/Category.php',
         'App\\Model\\Users' => __DIR__ . '/../..' . '/model/Users.php',
         'ComposerAutoloaderInit066495f332f32c509c4e48ebfc6ac2df' => __DIR__ . '/..' . '/composer/autoload_real.php',
