@@ -4,6 +4,8 @@ It's just a small "weekend project" but to be a full framework must have more fe
 
 #Install
 
+Cloning or download from this repository or:
+
 1. composer require minimvc/minimvc
 
 2. Rename de vendor folder
