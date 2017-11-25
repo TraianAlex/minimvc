@@ -18,7 +18,7 @@ $route->add('/about/.+', 'About@testParam');
 
 $route->add('/contact', 'Contact@test');
 
-/*-------------------ANONIMUS-----------------------------------------*/
+/*-------------------ANONYMOUS-----------------------------------------*/
 
 $route->add('/foo/.+/bar/.+', function($first, $second){
     view('pages/foo', [$first, $second]);
