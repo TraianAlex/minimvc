@@ -1,5 +1,6 @@
 # minimvc
 A custom framework with routing, php-mysql wrapper, view, validation.
+It's just a small "weekend project" but to be a full framework must have more features like caching, pagination (the php-mysql wrapper has something included but need a class to build the links, etc), email class, etc. The Model, Controller, router looks like those from Laravel and for the view I tried to reinvent the wheel.
 
 #Install
 
