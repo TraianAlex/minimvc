@@ -16,3 +16,4 @@ Cloning or download from this repository or:
 
 5. In config.php write your mysql database credentials
 
+6. Modify the line RewriteBase /sitedir/public from public/.htaccess with your sitedir for local development.
