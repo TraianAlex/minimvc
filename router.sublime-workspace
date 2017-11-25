@@ -497,14 +497,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/victor/MEGA/www/router",
-		"/Users/victor/MEGA/www/router/controllers",
-		"/Users/victor/MEGA/www/router/core",
-		"/Users/victor/MEGA/www/router/views",
-		"/Users/victor/MEGA/www/router/views/pages"
+		"/Users/victor/MEGA/www/router"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/router/composer.json",
 		"/Users/victor/MEGA/www/router/core/helpers.php",
 		"/Users/victor/MEGA/www/router/router.php",
 		"/Users/victor/MEGA/www/router/controllers/Home.php",
@@ -544,7 +541,6 @@
 		"/Users/victor/MEGA/www/router/core/Crud.php",
 		"/Users/victor/MEGA/www/router/router2.php",
 		"/Users/victor/MEGA/www/router/core/Router.php",
-		"/Users/victor/MEGA/www/router/composer.json",
 		"/Users/victor/MEGA/www/router/index2.php",
 		"/Users/victor/MEGA/www/router/Route.php",
 		"/Users/victor/MEGA/www/router/Router.php",
