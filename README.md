@@ -14,6 +14,6 @@ Cloning or download from this repository or:
 
 4. composer update
 
-5. In config.php write your mysql database credentials
+5. Write a .env file like .env.example and put your mysql database credentials
 
 6. Modify the line RewriteBase /sitedir/public from public/.htaccess with your sitedir for local development if you are using xampp, wampp.

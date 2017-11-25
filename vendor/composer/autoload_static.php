@@ -22,6 +22,10 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         array (
             'Respect\\Validation\\' => 19,
         ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -32,6 +36,10 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         'Respect\\Validation\\' => 
         array (
             0 => __DIR__ . '/..' . '/respect/validation/library',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
     );
 
@@ -48,6 +56,14 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         'ComposerAutoloaderInit066495f332f32c509c4e48ebfc6ac2df' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df' => __DIR__ . '/..' . '/composer/autoload_static.php',
+        'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
+        'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
+        'Dotenv\\Exception\\InvalidCallbackException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidCallbackException.php',
+        'Dotenv\\Exception\\InvalidFileException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidFileException.php',
+        'Dotenv\\Exception\\InvalidPathException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidPathException.php',
+        'Dotenv\\Exception\\ValidationException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ValidationException.php',
+        'Dotenv\\Loader' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Loader.php',
+        'Dotenv\\Validator' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Validator.php',
         'MysqliDb' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/MysqliDb.php',
         'Respect\\Validation\\Exceptions\\AgeException' => __DIR__ . '/..' . '/respect/validation/library/Exceptions/AgeException.php',
         'Respect\\Validation\\Exceptions\\AllOfException' => __DIR__ . '/..' . '/respect/validation/library/Exceptions/AllOfException.php',

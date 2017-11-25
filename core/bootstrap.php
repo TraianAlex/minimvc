@@ -3,5 +3,7 @@
 define("APP_PATH", dirname(dirname(__FILE__)));
 define("SITE_ROOT", dirname($_SERVER['PHP_SELF']));
 
-extract(include('../config.php'));
-new MysqliDb ($database['host'], $database['user'], $database['password'], $database['database']);
+$dotenv = new Dotenv\Dotenv(APP_PATH);
+$dotenv->overload();
+
+new MysqliDb (env(DB_HOST), env(DB_USERNAME), env(DB_PASSWORD), env(DB_DATABASE));

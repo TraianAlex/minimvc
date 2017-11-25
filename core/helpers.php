@@ -38,6 +38,14 @@ function redirect($path = '')
     header("Location: ".SITE_ROOT."/{$path}");
 }
 
+function env($var, $default = null)
+{
+    if (!isset($var) && isset($default)) {
+        return $default;
+    }
+    return $_ENV[$var];
+}
+
 function dd($var)
 {
     echo '<pre>';

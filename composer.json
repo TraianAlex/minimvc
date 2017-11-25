@@ -20,6 +20,7 @@
     },
     "require": {
         "respect/validation": "^1.1",
-        "joshcam/mysqli-database-class": "^2.8"
+        "joshcam/mysqli-database-class": "^2.8",
+        "vlucas/phpdotenv": "^2.4"
     }
 }

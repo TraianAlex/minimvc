@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Respect\\Validation\\' => array($vendorDir . '/respect/validation/library'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
 );
