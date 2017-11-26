@@ -12,7 +12,7 @@ class About
         foreach ($users as $user) {
           $data[] = $user->data['first_name'];
         }
-        return view('pages/about-get', $data);
+        return view1('pages/about-get', $data);
     }
     /**
      * See respect/validation/docs
@@ -39,16 +39,16 @@ class About
         catch(NestedValidationException $e) {
             $data['errors'] = $e->getMessages();
         }
-        view('pages/test-validation', $data);
+        view1('pages/test-validation', $data);
     }
 
     public function testParam($id1)
     {
-        view('pages/about-testparam', ['param' => $id1]);
+        view1('pages/about-testparam', ['param' => $id1]);
     }
 
     public function testParam2($id1, $id2 = null)
     {
-        view('pages/about-testparam', ['param' => [$id1, $id2]]);
+        view1('pages/about-testparam', ['param' => [$id1, $id2]]);
     }
 }

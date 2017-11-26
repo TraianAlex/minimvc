@@ -1,4 +1,15 @@
 <?php
+
+use Philo\Blade\Blade;
+
+function view($view, $data = [])
+{
+    $views = APP_PATH . '/views';
+    $cache = APP_PATH . '/cache';
+
+    $blade = new Blade($views, $cache);
+    echo $blade->view()->make($view, $data)->render();
+}
 /**
  * [viewHtml description]
  * @param  [type] $name the name of the html page
@@ -8,20 +19,24 @@ function viewHtml($name)
 {
     return require APP_PATH."/views/html/{$name}.html";
 }
-
+/**
+ * use TPL kind of templating
+ * @param  [type] $name [description]
+ * @return [type]       [description]
+ */
 function inc($name)
 {
-    return require APP_PATH."/views/{$name}.tpl.php";
+    return require APP_PATH."/views/tpl/{$name}.tpl.php";
 }
 
-function view($view, $data = [], $yield = 'content', $template = 'app')
+function view1($view, $data = [], $yield = 'content', $template = 'app')
 {
     extract($data);
     ob_start();
-    include(APP_PATH."/views/$view.tpl.php");
+    include(APP_PATH."/views/tpl/$view.tpl.php");
     $GLOBALS[$yield] = ob_get_contents();
     @ob_end_clean();
-    return include(APP_PATH."/views/layouts/$template.tpl.php");
+    return include(APP_PATH."/views/tpl/layouts/$template.tpl.php");
 }
 
 function output($var="")
@@ -38,17 +53,19 @@ function redirect($path = '')
     header("Location: ".SITE_ROOT."/{$path}");
 }
 
-function env($var, $default = null)
-{
-    if (!isset($var) && isset($default)) {
-        return $default;
-    }
-    return $_ENV[$var];
-}
+//vendor/illuminate/support/helpers.php
 
-function dd($var)
-{
-    echo '<pre>';
-    die(print_r($var));
-    echo '</pre>';
-}
+// function env($var, $default = null)
+// {
+//     if (!isset($var) && isset($default)) {
+//         return $default;
+//     }
+//     return $_ENV[$var];
+// }
+
+// function dd($var)
+// {
+//     echo '<pre>';
+//     die(print_r($var));
+//     echo '</pre>';
+// }

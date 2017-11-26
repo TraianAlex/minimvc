@@ -5,6 +5,6 @@ class Contact
 {
     public function test()
     {
-        view('pages/contact-test');
+        view1('pages/contact-test');
     }
 }

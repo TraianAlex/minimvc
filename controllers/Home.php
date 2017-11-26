@@ -16,7 +16,8 @@ class Home
         foreach ($users as $user) {
           $data[] = $user->data;
         }
-        return view('pages/home', $data);
+        //return view1('pages/home', $data);
+        return view('pages.home', ['data' => $data]);
     }
 
     public function store()
@@ -55,7 +56,7 @@ class Home
         }else
             $data[] = "user were created with id" . $id;
         //redirect();
-        view('pages/home', $data);
+        view1('pages/home', $data);
     }
 
     public function setUser($name)
@@ -66,6 +67,6 @@ class Home
         $user->sections = ['news', 'companyNews'];
         $user->save();
 
-        view('pages/home', [$user->options]);
+        view1('pages/home', [$user->options]);
     }
 }

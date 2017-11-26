@@ -21,13 +21,13 @@ $route->add('/contact', 'Contact@test');
 /*-------------------ANONYMOUS-----------------------------------------*/
 
 $route->add('/foo/.+/bar/.+', function($first, $second){
-    view('pages/foo', [$first, $second]);
+    view1('pages/foo', [$first, $second]);
 });
 $route->add('/foo/.+', function($foo){
-    view('pages/foo', [$foo]);
+    view1('pages/foo', [$foo]);
 });
 $route->add('/foo', function(){
-    view('pages/foo');
+    view1('pages/foo');
 });
 
 /*-----------------STATIC PAGES-------------------------------------------*/
