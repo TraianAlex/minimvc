@@ -12,7 +12,7 @@ function view($view, $data = [])
 }
 /**
  * [viewHtml description]
- * @param  [type] $name the name of the html page
+ * @param  [type] $name of the html page
  * @return [type] page
  */
 function viewHtml($name)
@@ -53,7 +53,7 @@ function redirect($path = '')
     header("Location: ".SITE_ROOT."/{$path}");
 }
 
-//vendor/illuminate/support/helpers.php
+//already in vendor/illuminate/support/helpers.php
 
 // function env($var, $default = null)
 // {

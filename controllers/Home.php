@@ -35,6 +35,10 @@ class Home
 
     public function delete($id)
     {
+        $categories = Category::get();//use for demo
+        foreach ($categories as $cat) {
+            $id = $cat->data['id'];
+        }
         $cat = Category::byId($id);
         $cat->delete();
         redirect();

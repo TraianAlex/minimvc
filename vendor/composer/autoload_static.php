@@ -135,6 +135,7 @@ class ComposerStaticInit066495f332f32c509c4e48ebfc6ac2df
         'App\\Core\\DB_Manager' => __DIR__ . '/../..' . '/temp/db-manager/DB_Manager.php',
         'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
         'App\\Core\\Route' => __DIR__ . '/../..' . '/core/Route.php',
+        'App\\Core\\URI_Cache' => __DIR__ . '/../..' . '/core/URI_Cache.php',
         'App\\Model\\Category' => __DIR__ . '/../..' . '/model/Category.php',
         'App\\Model\\Users' => __DIR__ . '/../..' . '/model/Users.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',

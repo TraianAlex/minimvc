@@ -3,7 +3,9 @@ namespace App\Controllers;
 use App\Model\Users;
 use Respect\Validation\Validator;
 use Respect\Validation\Exceptions\NestedValidationException;
-
+/**
+ * https://github.com/TraianAlex/PHP-MySQLi-Database-Class/blob/master/dbObject.md
+ */
 class About
 {
     public function getData()
@@ -15,7 +17,7 @@ class About
         return view1('pages/about-get', $data);
     }
     /**
-     * See respect/validation/docs
+     * See vendor/respect/validation/docs
      * @return [type] [description]
      */
     public function test()

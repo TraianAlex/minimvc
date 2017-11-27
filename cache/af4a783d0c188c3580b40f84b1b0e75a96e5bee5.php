@@ -1,5 +1,6 @@
 <?php $__env->startSection('content'); ?>
 Home page<br>
+Test cache: the time is <?php echo e(time()); ?><br>
 <?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $cat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <p>This is category <?php echo e($cat['id']); ?> => <?php echo e($cat['name']); ?></p>
 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>

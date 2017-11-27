@@ -12,6 +12,7 @@ return array(
     'App\\Core\\DB_Manager' => $baseDir . '/temp/db-manager/DB_Manager.php',
     'App\\Core\\Request' => $baseDir . '/core/Request.php',
     'App\\Core\\Route' => $baseDir . '/core/Route.php',
+    'App\\Core\\URI_Cache' => $baseDir . '/core/URI_Cache.php',
     'App\\Model\\Category' => $baseDir . '/model/Category.php',
     'App\\Model\\Users' => $baseDir . '/model/Users.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
