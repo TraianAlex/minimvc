@@ -14,9 +14,9 @@ composer require minimvc/minimvc dev-master
 
 cd ..
 
-mv install-dir/vendor/minimvc/minimvc . (Copy vendor/minimvc/minimvc folder and put in your server root. Rename it)
+mv install-dir/vendor/minimvc/minimvc .
 
-rm -rf install-dir (Delete install-dir)
+rm -rf install-dir
 
 cd minimvc
 
