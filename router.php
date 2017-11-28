@@ -3,6 +3,8 @@
 use App\Controllers\About;
 
 $route->add('/', 'Home@test');
+$route->add('home/category', 'Home@pagination');
+$route->add('home/category/.+', 'Home@pagination');
 $route->add('/home/store', 'Home@store');
 $route->add('home/delete/.+', 'Home@delete');
 $route->add('home/set/.+', 'Home@setUser');

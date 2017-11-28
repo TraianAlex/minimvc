@@ -20,6 +20,18 @@ class Home
         return view('pages.home', ['data' => $data]);
     }
 
+    public function pagination($page = null)
+    {
+        $page = isset($page) ? $page : 1;
+        Category::$pageLimit = 3;
+        $users = Category::arraybuilder()->paginate($page);
+
+        return view('pages.category', [
+            'data' => $users,
+            'page' => $page,
+            'total' => Category::$totalPages]);
+    }
+
     public function store()
     {
         $data = ['name' => 'demo1'];

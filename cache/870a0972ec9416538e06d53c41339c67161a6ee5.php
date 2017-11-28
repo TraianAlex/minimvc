@@ -1,4 +1,5 @@
 <a href="">Home</a> |
+<a href="home/category">Pagination</a> |
 <a href="home/store">Store Cat</a> |
 <a href="home/delete/29">Delete cat</a> |
 <a href="home/set/traian">Set User json</a> |

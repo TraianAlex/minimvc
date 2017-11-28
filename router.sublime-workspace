@@ -372,10 +372,28 @@
 	"buffers":
 	[
 		{
-			"file": "vendor/illuminate/support/helpers.php",
+			"file": "controllers/Home.php",
 			"settings":
 			{
-				"buffer_size": 26896,
+				"buffer_size": 2282,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/pages/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 678,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "router.php",
+			"settings":
+			{
+				"buffer_size": 1310,
 				"line_ending": "Unix"
 			}
 		}
@@ -388,7 +406,7 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "Package Control: ",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -484,7 +502,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 947.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -506,11 +524,13 @@
 	"expanded_folders":
 	[
 		"/Users/victor/MEGA/www/router",
-		"/Users/victor/MEGA/www/router/vendor",
-		"/Users/victor/MEGA/www/router/vendor/illuminate"
+		"/Users/victor/MEGA/www/router/controllers",
+		"/Users/victor/MEGA/www/router/views",
+		"/Users/victor/MEGA/www/router/views/pages"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/router/vendor/illuminate/support/helpers.php",
 		"/Users/victor/MEGA/www/router/vendor/illuminate/support/Arr.php",
 		"/Users/victor/MEGA/www/router/README.md",
 		"/Users/victor/MEGA/www/router/core/helpers.php",
@@ -637,8 +657,7 @@
 		"/Users/victor/Dropbox/www/laravel/lar55/config/app.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Buyer.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/vendor/spatie/laravel-fractal/config/fractal.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Transaction.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Category.php"
+		"/Users/victor/Dropbox/www/laravel/lar55/app/Transaction.php"
 	],
 	"find":
 	{
@@ -696,24 +715,84 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vendor/illuminate/support/helpers.php",
+					"file": "controllers/Home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26896,
+						"buffer_size": 2282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/pages/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 142.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "router.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -727,7 +806,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
