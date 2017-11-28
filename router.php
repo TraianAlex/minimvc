@@ -18,7 +18,9 @@ $route->add('/about/.+/second/.+', function($param1, $param2){
 });
 $route->add('/about/.+', 'About@testParam');
 
-$route->add('/contact', 'Contact@test');
+$route->add('/contact', 'Contact@index');
+$route->add('contact/send', 'Contact@send');
+$route->add('/contact/test', 'Contact@test');
 
 /*-------------------ANONYMOUS-----------------------------------------*/
 
