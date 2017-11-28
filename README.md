@@ -6,16 +6,28 @@ It's just a small "weekend project" but to be a full framework must have more fe
 
 Cloning or download from this repository or:
 
-1. composer require minimvc/minimvc
+mkdir install-dir
 
-2. Rename de vendor folder
+cd install-dir
 
-3. Grab everything from vendor/minimvc/minimvc folder and put direct in your root folder and delete the rest.
+composer require minimvc/minimvc dev-master
 
-4. composer update
+cd ..
 
-5. Write a .env file like .env.example and put your mysql database credentials
+mv install-dir/vendor/minimvc/minimvc . (Copy vendor/minimvc/minimvc folder and put in your server root. Rename it)
 
-6. Modify the line RewriteBase /sitedir/public from public/.htaccess with your sitedir for local development if you are using xampp, wampp.
+rm -rf install-dir (Delete install-dir)
+
+cd minimvc
+
+composer update
+
+cp .env.example .env (Write a .env file like .env.example and put your mysql database credentials if you use mysql).
+
+chmod -R 777 cache
+
+chmod -R 777 cache_url
+
+Modify line RewriteBase /sitedir/public/ in public/.htaccess put your sitedir for local development if you are using xampp, wampp. Ex. for localhost/minimvc in .htaccess RewriteBase /minimvc/public/
 
 Check the router.php, controllers and models for examples.

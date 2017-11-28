@@ -375,16 +375,25 @@
 			"file": "controllers/Home.php",
 			"settings":
 			{
-				"buffer_size": 2282,
+				"buffer_size": 2401,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/pages/home.blade.php",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 678,
+				"buffer_size": 1050,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/pages/category.blade.php",
+			"settings":
+			{
+				"buffer_size": 698,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -393,7 +402,8 @@
 			"file": "router.php",
 			"settings":
 			{
-				"buffer_size": 1310,
+				"buffer_size": 1411,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -526,10 +536,15 @@
 		"/Users/victor/MEGA/www/router",
 		"/Users/victor/MEGA/www/router/controllers",
 		"/Users/victor/MEGA/www/router/views",
-		"/Users/victor/MEGA/www/router/views/pages"
+		"/Users/victor/MEGA/www/router/views/layouts",
+		"/Users/victor/MEGA/www/router/views/pages",
+		"/Users/victor/MEGA/www/router/views/partials"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/router/views/partials/nav.blade.php",
+		"/Users/victor/MEGA/www/router/views/pages/home.blade.php",
+		"/Users/victor/MEGA/www/router/views/layouts/app.blade.php",
 		"/Users/victor/MEGA/www/router/vendor/illuminate/support/helpers.php",
 		"/Users/victor/MEGA/www/router/vendor/illuminate/support/Arr.php",
 		"/Users/victor/MEGA/www/router/README.md",
@@ -541,13 +556,10 @@
 		"/Users/victor/MEGA/www/router/core/bootstrap.php",
 		"/Users/victor/MEGA/www/router/.env",
 		"/Users/victor/MEGA/www/router/router.php",
-		"/Users/victor/MEGA/www/router/views/pages/home.blade.php",
-		"/Users/victor/MEGA/www/router/views/layouts/app.blade.php",
 		"/Users/victor/MEGA/www/router/vendor/illuminate/view/View.php",
 		"/Users/victor/MEGA/www/router/vendor/illuminate/container/Container.php",
 		"/Users/victor/MEGA/www/router/vendor/philo/laravel-blade/src/Blade.php",
 		"/Users/victor/MEGA/www/router/views/hello.blade.php",
-		"/Users/victor/MEGA/www/router/views/partials/nav.blade.php",
 		"/Users/victor/MEGA/www/router/composer.json",
 		"/Users/victor/MEGA/www/router/views/pages/home.tpl.php",
 		"/Users/victor/MEGA/www/router/core/Route.php",
@@ -724,15 +736,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2282,
+						"buffer_size": 2401,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								324
+								783,
+								783
 							]
 						],
 						"settings":
@@ -743,36 +755,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 238.0,
+						"translation.y": 502.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "views/pages/home.blade.php",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 678,
+						"buffer_size": 1050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								469,
-								469
+								611,
+								611
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 142.0,
+						"translation.y": 99.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -780,19 +792,50 @@
 				},
 				{
 					"buffer": 2,
-					"file": "router.php",
-					"semi_transient": true,
+					"file": "views/pages/category.blade.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1310,
+						"buffer_size": 698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "router.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
 							]
 						],
 						"settings":
@@ -806,7 +849,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
