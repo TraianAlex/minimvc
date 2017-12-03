@@ -2,31 +2,31 @@
 A custom framework with routing, php-mysql wrapper, view, validation, url caching, pagination.
 It's just a small "weekend project" but to be a full framework must have more features like upload images, Email(use mail()), Middleware, Sessions, tokens, etc. The Model, Controller, router and env() looks like those from Laravel and the view is the same: Blade template engine. How to use blade here (https://laravel.com/docs/5.1/blade).
 
-#Install
+#Installation
 
 Cloning or download from this repository or:
 
-mkdir install-dir
+	mkdir install-dir
 
-cd install-dir
+	cd install-dir
 
-composer require minimvc/minimvc dev-master
+	composer require minimvc/minimvc dev-master
 
-cd ..
+	cd ..
 
-mv install-dir/vendor/minimvc/minimvc .
+	mv install-dir/vendor/minimvc/minimvc .
 
-rm -rf install-dir
+	rm -rf install-dir
 
-cd minimvc
+	cd minimvc
 
-composer update
+	composer update
 
-cp .env.example .env (Write a .env file like .env.example and put your mysql database credentials if you use mysql).
+	cp .env.example .env (Write a .env file like .env.example and put your mysql database credentials if you use mysql).
 
-chmod -R 777 cache
+	chmod -R 777 cache
 
-chmod -R 777 cache_url
+	chmod -R 777 cache_url
 
 Modify line RewriteBase /sitedir/public/ in public/.htaccess put your sitedir for local development if you are using xampp, wampp. Ex. for localhost/minimvc in .htaccess RewriteBase /minimvc/public/
 
