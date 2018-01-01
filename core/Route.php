@@ -39,7 +39,7 @@ class Route
 
                 if (is_string($this->_method[$key])) {
                     $call = explode('@', $this->_method[$key]);
-                    return call_user_func_array(["App\\Controllers\\{$call[0]}", $call[1]], $params);
+                    return @call_user_func_array(["App\\Controllers\\{$call[0]}", $call[1]], $params);
                 }
 
                 return call_user_func_array($this->_method[$key], $params);

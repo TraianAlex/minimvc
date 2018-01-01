@@ -5,49 +5,49 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="{{SITE_ROOT}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="home/category">Pagination</a>
+            <a class="nav-link" href="{{SITE_ROOT}}/home/category">Pagination</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="home/store">Store cat</a>
+            <a class="nav-link" href="{{SITE_ROOT}}/home/store">Store cat</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="home/delete/29">Delete cat</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/home/delete/29">Delete cat</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="home/set/traian">Set User json</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/home/set/traian">Set User json</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="home/add">Add User</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/home/add">Add User</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="about">About Test Valid</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/about">About Test Valid</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="about/users">About get users</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/about/users">About get users</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="about/:param">About test param</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/about/:param">About test param</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="about/:param1/second/:param2">About test param2</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/about/:param1/second/:param2">About test param2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="contact">Contact</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="contact/test">ContactTest</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/contact/test">ContactTest</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="foo">Foo</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/foo">Foo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="foo/:param">Foo param</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/foo/:param">Foo param</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="foo/:param1/bar/:param2">Foo param2</a>
+            <a class="nav-link text-white" href="{{SITE_ROOT}}/foo/:param1/bar/:param2">Foo param2</a>
           </li>
         </ul>
       </div>

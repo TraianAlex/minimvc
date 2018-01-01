@@ -28,8 +28,6 @@ Cloning or download from this repository or:
 
 	chmod -R 777 cache_url
 
-Modify line RewriteBase /sitedir/public/ in public/.htaccess put your sitedir for local development if you are using xampp, wampp. Ex. for localhost/minimvc in .htaccess RewriteBase /minimvc/public/
-
-In Core/Request@url method use line 13 or 14, depend on your development environment
+    php -S localhost:8080 -t public
 
 Check the router.php, controllers and models for examples.
