@@ -22,6 +22,17 @@ $route->add('/contact', 'Contact@index');
 $route->add('contact/send', 'Contact@send');
 $route->add('/contact/test', 'Contact@test');
 
+/*----------------test------------------------------------*/
+
+$route->add('/search', function(){
+    echo '<form action="/search-results" method="POST">
+        <input type="text" name="query" placeholder="Search for something...">
+        <input type="submit" value="Search">
+    </form>';
+});
+$route->add('search-results', function(){
+    echo 'Search results for '.$_POST['query'];
+});
 /*-------------------ANONYMOUS-----------------------------------------*/
 
 $route->add('/foo/.+/bar/.+', function($first, $second){

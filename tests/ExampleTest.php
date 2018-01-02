@@ -14,6 +14,18 @@ class ExampleTest extends IntegrationTest
     function it_loads_the_about_page()
     {
         $this->visit('about')->andSee('About Test');
-        $this->visit('about')->click('Contact')->seePageIs('contact');
     }
+    /** @test */
+    function it_loads_the_contact_page()
+    {
+        $this->visit('about')->click('Contact')->seePageIs('contact');//andClick andSeePageIs
+    }
+    /** @test */
+    function it_searches_things()
+    {
+        $this->visit('search')->andType('integrating testing', 'query')->press('Search')
+            ->andSee('Search results for integrating testing')
+            ->onPage('/search-results');//->submitForm('Search', []);
+    }
+
 }
