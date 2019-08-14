@@ -49,7 +49,7 @@ class Home
     {
         $categories = Category::get();//use for demo
         foreach ($categories as $cat) {
-            $id = $cat->data['id'];
+            $id = $cat->data['id'];// last id
         }
         $cat = Category::byId($id);
         $cat->delete();

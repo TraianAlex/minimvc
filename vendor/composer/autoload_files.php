@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
+    'ad155f8f1cf0d418fe49e248db8c661b' => $vendorDir . '/react/promise/src/functions_include.php',
+    '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    '0722f366d96f0cefcdd3d02d4504fc2e' => $vendorDir . '/laracasts/testdummy/src/functions.php',
     '9c9a81795c809f4710dd20bec1e349df' => $vendorDir . '/joshcam/mysqli-database-class/MysqliDb.php',
     '94df122b6b32ca0be78d482c26e5ce00' => $vendorDir . '/joshcam/mysqli-database-class/dbObject.php',
     '59b9c8e4f14b2edf190b1bca5bd5db16' => $baseDir . '/core/helpers.php',

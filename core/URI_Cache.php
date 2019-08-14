@@ -6,7 +6,7 @@ namespace App\Core;
 
 class URI_Cache
 {
-    var $cache_dir = "/router/cache_url";
+    var $cache_dir = "cache_url";
     var $cache_duration = 30;  // cache duration, in seconds
     var $cache_ext = ".html";
     var $debug = 0;
@@ -27,7 +27,8 @@ class URI_Cache
         if ($dir) $this->cache_dir = $dir;
         if ($ext) $this->cache_ext = $ext;
 
-        $this->cache_dir = $_SERVER['DOCUMENT_ROOT']."/".$this->cache_dir;
+        //$this->cache_dir = $_SERVER['DOCUMENT_ROOT']."/".$this->cache_dir;
+        $this->cache_dir = APP_PATH."/".$this->cache_dir;
         if ($load_and_exit) $this->Load();
 
         // check if output buffering is enabled...
