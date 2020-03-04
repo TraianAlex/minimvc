@@ -1,3 +1,5 @@
 vendor/
 temp/
+cache/
+cache_url/
 .env
