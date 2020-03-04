@@ -3,3 +3,4 @@ temp/
 cache/
 cache_url/
 .env
+.DS_Store
