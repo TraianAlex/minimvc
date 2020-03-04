@@ -39,7 +39,8 @@ class Route
 
                 if (is_string($this->_method[$key])) {
                     $call = explode('@', $this->_method[$key]);
-                    return @call_user_func_array(["App\\Controllers\\{$call[0]}", $call[1]], $params);
+                    //return call_user_func_array(["App\\Controllers\\{$call[0]}", $call[1]], $params);
+                    return $this->callAction($call[0], $call[1], ...$params);
                 }
 
                 return call_user_func_array($this->_method[$key], $params);
@@ -51,13 +52,13 @@ class Route
      * @param  [type] $action     [description]
      * @return return $this->callAction(...explode('@', $this->_method[$key]));
      */
-    // private function callAction($controller, $action)
-    // {
-    //     $controller = "App\\Controllers\\{$controller}";
-    //     $controller = new $controller;
-    //     if(! method_exists($controller, $action)){
-    //         throw new Exception("{$controller} does not respond to the {$action} action");
-    //     }
-    //     return $controller->$action();
-    // }
+    private function callAction($controller, $action, $params = null)
+    {
+        $controller = "App\\Controllers\\{$controller}";
+        $controller = new $controller;
+        if(! method_exists($controller, $action)){
+            throw new Exception("{$controller} does not respond to the {$action} action");
+        }
+        return $controller->$action($params);
+    }
 }
