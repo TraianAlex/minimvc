@@ -9,3 +9,5 @@ $dotenv->overload();
 //ob_start();
 new MysqliDb (env('DB_HOST'), env('DB_USERNAME'), env('DB_PASSWORD'), env('DB_DATABASE'));
 //ob_clean();
+
+//$cache = new App\Core\URI_Cache(3600);//10 sec

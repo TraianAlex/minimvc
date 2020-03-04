@@ -11,6 +11,5 @@ if(env('APP_ENV') === 'production'){
     header("Accept-Encoding: deflate, gzip;q=1.0, *;q=0.5");
 }
 
-//$cache = new URI_Cache(10);//10 sec
 Route::load(APP_PATH.'/router.php')->submit(Request::uri());
 
