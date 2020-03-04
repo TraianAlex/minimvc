@@ -7,4 +7,5 @@ $dotenv = new Dotenv\Dotenv(APP_PATH);
 $dotenv->overload();
 
 new MysqliDb (env('DB_HOST'), env('DB_USERNAME'), env('DB_PASSWORD'), env('DB_DATABASE'));
-//$cache = new App\Core\URI_Cache(5);//10 sec
+
+//$cache = new App\Core\URI_Cache(3600);//10 sec

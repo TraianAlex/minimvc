@@ -50,7 +50,7 @@ function output($var="")
 
 function redirect($path = '')
 {
-    header("Location: ".SITE_ROOT."/{$path}");
+    header("Location: /{$path}");
 }
 
 //already in vendor/illuminate/support/helpers.php

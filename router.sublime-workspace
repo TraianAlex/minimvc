@@ -375,25 +375,8 @@
 			"file": "tests/ExampleTest.php",
 			"settings":
 			{
-				"buffer_size": 486,
+				"buffer_size": 865,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 953,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "temp/todo.txt",
-			"settings":
-			{
-				"buffer_size": 611,
 				"line_ending": "Unix"
 			}
 		}
@@ -524,12 +507,14 @@
 	"expanded_folders":
 	[
 		"/Users/victor/MEGA/www/router",
-		"/Users/victor/MEGA/www/router/controllers",
-		"/Users/victor/MEGA/www/router/core",
-		"/Users/victor/MEGA/www/router/temp"
+		"/Users/victor/MEGA/www/router/tests",
+		"/Users/victor/MEGA/www/router/tests/logs"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/router/router.php",
+		"/Users/victor/MEGA/www/router/tests/logs/output.html",
+		"/Users/victor/MEGA/www/router/README.md",
 		"/Users/victor/MEGA/www/router/temp/todo.txt",
 		"/Users/victor/MEGA/www/router/public/.htaccess",
 		"/Users/victor/MEGA/www/router/views/tpl/layouts/app.tpl.php",
@@ -542,14 +527,12 @@
 		"/Users/victor/MEGA/www/router/views/pages/category.blade.php",
 		"/Users/victor/MEGA/www/router/views/partials/pagination.blade.php",
 		"/Users/victor/MEGA/www/router/core/Route.php",
-		"/Users/victor/MEGA/www/router/router.php",
 		"/Users/victor/MEGA/www/router/.env",
 		"/Users/victor/MEGA/www/router/phpunit.xml",
 		"/Users/victor/MEGA/www/traian4/application/Sessions.php",
 		"/Users/victor/MEGA/www/traian4/view/footer.php",
 		"/Users/victor/MEGA/www/traian4/new-pdo/js/js_loader.js",
 		"/Users/victor/MEGA/www/traian4/view/test/read_meta.php",
-		"/Users/victor/MEGA/www/router/README.md",
 		"/Users/victor/MEGA/www/router/controllers/Contact.php",
 		"/Users/victor/MEGA/www/router/controllers/Home.php",
 		"/Users/victor/MEGA/www/router/views/tpl/partials/nav.tpl.php",
@@ -656,8 +639,7 @@
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Product/ProductCategoryController.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Category/CategoryProductController.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Buyer/BuyerTransactionController.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Buyer/BuyerProductController.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Buyer/BuyerController.php"
+		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Buyer/BuyerProductController.php"
 	],
 	"find":
 	{
@@ -719,7 +701,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -728,84 +710,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 486,
+						"buffer_size": 865,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								467,
-								467
+								775,
+								775
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								953,
-								953
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "temp/todo.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 611,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -988,9 +912,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "vic",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/MEGA/www/laravel/vic/vic.sublime-project"
+			],
 			[
 				"vic",
 				"~/MEGA/www/laravel/vic/vic.sublime-project"
@@ -1002,10 +930,6 @@
 			[
 				"petra",
 				"~/MEGA/www/petra/petra.sublime-project"
-			],
-			[
-				"",
-				"~/MEGA/www/laravel/laravel.sublime-project"
 			],
 			[
 				"lar",
